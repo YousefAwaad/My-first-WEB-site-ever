@@ -1,0 +1,75 @@
+.Title { display:flex;
+    background-color: blueviolet;
+    width: 500px;
+    height : 80px;
+    justify-content: center;
+    border: 100px rgb(0, 0, 0);
+    Font-family: Arial, sans-serif;
+    margin:10px
+}
+
+
+.style {
+    color: #fff;
+    background: #2d2d2d;
+    padding: 12px;
+    display: inline-block;
+ 
+}
+.inf {
+
+    width : 400px;
+    height : 90px;
+    
+    padding:30px;
+    display:flex;
+    background-color: lightblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content:center;
+}
+
+#Media {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(102, 102, 102);
+    width:400px;
+    justify-content: space-evenly;
+    
+    text-align:center;
+    padding:10px;
+    margin: 10px;
+
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+body {margin:0px}
+
+#Info{
+    border: 10px solid black;
+    background-color: rgb(0, 115, 153);
+    padding:1px;
+    margin:400px
+}
+
+.facebook{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    flex-direction: row;
+
+}
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(83, 140, 198);
+}
